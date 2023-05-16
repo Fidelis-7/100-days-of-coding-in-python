@@ -1,0 +1,21 @@
+body{
+    background:red;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+
+    color: blue;
+    font-size: 30px;
+}
+.bacon {
+    background-color:red;
+}
+
+.brocolli {
+    background-color:red;
+}
+
+#heading1 {
+    color:pink;
+}
