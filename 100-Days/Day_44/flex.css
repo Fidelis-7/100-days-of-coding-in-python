@@ -1,0 +1,135 @@
+* {
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #40514e;
+}
+
+
+div.top-container {
+    /* background:#D21312;  */
+    background-color:black; 
+    padding: 40px;
+   
+}
+
+hr {
+    border: dotted black 6px;
+    border-bottom: none;
+    width:4%;
+    margin: 100px auto ;
+}
+h1{
+    font-size:90px;
+    margin-top: 2.6rem;
+    font-family:'Sacremento';
+    color: #66bfbf;
+}
+.intro{
+    width: 30%;
+    margin:auto;
+    line-height: 2;
+    font-family: 'Times New Roman', Times, serif ;
+}
+p{
+    font-weight: normal;
+    font-size: 20px;
+    /* font-family:Arial, Helvetica, sans-serif */
+}
+.top-cloud-img{
+    position:relative;
+    left:200px;
+    top:40px
+}
+.bottom-cloud-img{
+    position: absolute;
+    left: 250px;
+}
+.mountain-img{
+    height:200px;
+    padding: 100px;
+}
+
+.skill-row{
+    width:50%;
+    margin:100px auto 100px auto; 
+    line-height: 2;
+}
+.computer-img{
+    width: 25%;
+    float: left;
+    padding-right:30px ;
+}
+.chillies-img{
+    width: 25%;
+    float:right;
+    padding-right: 30px;
+    
+}
+
+div.middle-container {
+  
+}
+.profile img {
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h2 {
+    color: #66bfbf;
+    /* font-family: sans-serif; */
+    padding-top: 20px;
+    
+}
+
+h3 {
+    color: #66bfbf;
+    /* font-family: sans-serif; */
+}
+
+
+
+div.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+  
+}
+.contact-message{
+    width:40%;
+    margin:40px auto;
+}
+
+.contact-button{
+    background-image:linear-gradient(#11cdd4, #11999e);
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size:20px;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+.contact-button:hover {
+    background-image: linear-gradient(#30e3cb, #2bc4ad);
+}
+.btn{
+    text-decoration: none;
+}
+
+.get-in-touch{
+    margin-bottom: 20px;
+}
+.footer-link{
+    color: #11999e;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color:#eaf6f6;
+}
+.copyright{
+    color:#eaf6f6;
+    font-size:0.75rem;
+    padding: 20px 0;
+}
