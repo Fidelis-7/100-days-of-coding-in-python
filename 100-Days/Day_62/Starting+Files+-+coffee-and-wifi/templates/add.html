@@ -1,0 +1,30 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Add A New Cafe{% endblock %}
+{% block styles %}
+{{super()}}
+<link rel="stylesheet"
+      href="static/css/styles.css">
+{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-8">
+
+      <h1>Add a new cafe into the database</h1>
+
+     <form method="post" action="{{ url_for('add_cafe') }}" novalidate class="space-above">
+       {{ wtf.quick_form(form) }}
+       {% for error in wtf.quick_form(form).errors %}
+         <span style="color:red;">{{ err }}</span>
+       {% endfor %}
+     </form>
+
+	  <p class="space-above"><a href="{{ url_for('cafes') }}">See all cafes</a></p>
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}
